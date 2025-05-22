@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_lightbox.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Solução de uma EDO | INTRODUÇÃO ÀS EDO </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Begoña Alarcón Cotillas" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_lightbox.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site exe-auto-math" id="exe-node-6"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar navegação</a></p>
+<header id="header" ><div id="headerContent">INTRODUÇÃO ÀS EDO</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Instruções</a></li>
+   <li><a href="desmitificando_as_edos.html" class="no-ch">Desmitificando as EDOs</a></li>
+   <li><a href="elementos_de_uma_edo.html" class="daddy">Elementos de uma EDO</a>
+   <ul class="other-section">
+      <li><a href="classificao_das_edos.html" class="no-ch">Classificação das EDOs</a></li>
+   </ul>
+   </li>
+   <li id="active"><a href="soluo_de_uma_edo.html" class="active daddy">Solução de uma EDO</a>
+   <ul>
+      <li><a href="definio_formal.html" class="no-ch">Definição formal</a></li>
+      <li><a href="problema_de_valor_inicial.html" class="no-ch">Problema de Valor inicial</a></li>
+   </ul>
+   </li>
+   <li><a href="geogebrapython.html" class="no-ch">Geogebra/Python</a></li>
+   <li><a href="avalie_o_recurso.html" class="no-ch">Avalie o recurso!</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="classificao_das_edos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="definio_formal.html" class="next"><span>Seguinte<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Solução de uma EDO</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_announcement" id="id20">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_announcement.png)"><span class="iDeviceTitle">&nbsp;</span></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta20_123_2" class="block iDevice_content">
+<div class="exe-text"><p>Vamos pensar em uma EDO como uma receita para um bolo. A equação te dá os ingredientes (a função e suas derivadas) e como esses ingredientes devem se combinar. Mas o que você realmente quer é o bolo pronto, certo? No mundo das EDOs, esse "bolo pronto" é o que chamamos de solução.</p>
+<p><strong>O que é a solução de uma EDO?</strong></p>
+<p>Já vimos na introdução que uma EDO é uma regra que descreve como algo muda ao longo do tempo, como a posição de um objeto, o aumento de bactérias ou a temperatura de um corpo. A solução é a função específica que, quando substituída na equação, faz com que tudo "se encaixe" perfeitamente. Em outras palavras, é a função que obedece exatamente àquela regra dada pela EDO. Essa função solução será a equação da posição do objeto, a função que determina quantas bactérias há em um dado instante ou a temperatura de um corpo após um tempo.</p>
+<p><strong>Como funciona na prática?</strong></p>
+<p>Vamos usar um exemplo simples. Digamos que a EDO seja \(y'=2x\).</p>
+<p>Aqui, \(y'\) é a derivada de \(y\) em relação a \(x\). A solução dessa EDO seria uma função \(y(x)\) que, quando derivada, dá exatamente \(2x.\)</p>
+<p>Se tentarmos \(y(x) = x^2\), vemos que:</p>
+<p>\[\dfrac{dy}{dx} = \dfrac{d}{dx}(x^2) = 2x\] Então, \(y(x)=x^2\) é uma solução para essa equação. A solução é a função que "satisfaz" a equação, ou seja, faz com que a equação seja verdadeira.</p>
+<p>Os gráficos das soluções de uma EDO são chamadas de curvas integrais.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_assignment" id="id21">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_assignment.png)"><h1 class="iDeviceTitle">SOLUÇÕES GERAIS E PARTICULARES</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta21_124_2" class="block iDevice_content">
+<div class="exe-text"><p>E se eu te disser que \(y(x) = x^2 + 3\) também é uma solução da EDO? E também \(y(x) = x^2 - 5\)? Isso mostra que existem várias funções que podem resolver a mesma EDO, mas diferem por uma constante. A solução geral de uma EDO inclui todas essas possibilidades. No nosso exemplo, a solução geral é geralmente escrita como \(y(x) = x^2 + C\), onde \(C\) é uma constante arbitrária.</p>
+<p>Quando você tem informações adicionais, como o valor de \(y\) em um ponto específico (condição inicial), você pode determinar um valor específico para \(C\), resultando em uma solução particular válida em um determinado intervalo. No nosso exemplo, a solução da EDO que passa pelo ponto \(\left(0,\pi \right)\) seria a solução \(y(x) = x^2 + C\) tal que \(y(0) = \pi\). Isto é, \(y(x) = x^2 + \pi\).</p>
+<p>Portanto, para a EDO \(\dfrac{dy}{dx}=2x\),</p>
+<p>\(y(x) = x^2 + C\) é a solução geral</p>
+<p>\(y(x) = x^2 + \pi\) é uma solução particular</p>
+<p>Esse é o gráfico das curvas integrais da EDO. Observe como variam as curvas segundo os valores da constante \(C\).</p>
+<p><img src="curvasint2x.png" alt="curvas integrais edo y'=2x" title="Curvas integrais" width="427" height="295" style="vertical-align: middle; margin: 10px;" /></p>
+<p> <span style="color: #fb5150;">Exemplo:</span> Qual seria a solução geral da EDO \(\dfrac{dy}{dx}=\sqrt{x}\)? E a solução particular que satisfaz \(y(1)=0\)?</p>
+<p class="js-required"><input type="button" value="Solução" onclick="$('#solgeral').toggle()" /></p>
+<div id="solgeral" class="js-hidden">
+<p>Vamos resolver a EDO para encontrar a solução geral. Relaxe... essa aqui você consegue... </p>
+<p>Lembrando que aqui a incógnita é a função \(y(x)\) cuja derivada é \(\sqrt{x}\). É familiar? Siiim, o que vamos procurar é uma primitiva!</p>
+<p>Assim, \[y(x)= \int \sqrt{x} \, dx = \int x^{1/2} \, dx = \dfrac{2}{3}x^{3/2} + C,\]</p>
+<p>onde \(C\) é a constante de integração.</p>
+<p>A solução geral da EDO \(y'=\sqrt{x}\) é \(y(x)=\dfrac{2}{3}x^{3/2} + C\).</p>
+<p>Vamos encontrar agora a solução particular tal que \(y(1)=0\). Substituindo na solução geral, \(0=\dfrac{2}{3}+C\), donde \(C=-\dfrac{2}{3}\).</p>
+<p>A solução particular que passa pelo ponto \(\left(1,0 \right)\) é \(y(x)=\dfrac{2}{3}x^{3/2} -\dfrac{2}{3}=\dfrac{2}{3}(\sqrt{x^3}-1)\)</p>
+<p>Veja como é o gráfico das curvas integrais para esta EDO. <a title="Curiosidade!" class="exe-dialog-link" rel="lightbox" href="#t2c57677e-822d-56b5-aa2c-865394f64515" id="link2c57677e-822d-56b5-aa2c-865394f64515">Onde estaria a curva integral de nossa solução particular?</a></p>
+<p><img src="curvasintraizx.png" alt="curvas integrais edo y'=raiz(x)" title="Curvas integrais" width="406" height="302" style="vertical-align: middle; margin: 10px;" /></p>
+<p> <span style="color: #fb5150;">Atenção!</span> A solução geral de uma EDO de primeira ordem é sempre uma família a um parâmetro. Isto é, sempre depende de uma constante \(C\), e somente uma. Veremos mais para a frente que será diferente nas EDO de ordem superior.</p>
+<div id="t2c57677e-822d-56b5-aa2c-865394f64515" class="exe-dialog-text js-hidden">
+<p>Para nossa solução particular, C=-2/3=-0.67, portanto estará entre a curva correspondente a C=0 e a curva correspondente a C=-1.</p>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_assignment_white" id="id22">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_assignment_white.png)"><h1 class="iDeviceTitle">O INTERVALO DE DEFINIÇÃO</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta22_125_2" class="block iDevice_content">
+<div class="exe-text"><p>Voltemos a EDO \(y'=2x\). Perceba que há uma questão bem importante: para quais valores de \(x\) essa solução é válida? Isso é o intervalo de definição da solução. É o conjunto de valores da variável independente \(x\) onde a solução faz sentido e a equação é satisfeita. No nosso exemplo inicial, como não há nenhuma restrição evidente, podemos dizer que a solução geral \(y(x)=x^2\) é válida para todos os \(x\), ou seja, que o intervalo de definição da solução é todo o intervalo \(\left(-\infty, +\infty\right)\).</p>
+<p> <span style="color: #fb5150;">Exemplo:</span> Qual seria o intervalo de definição da solução particular da EDO \(\dfrac{dy}{dx}=\sqrt{x}\) que satisfaz \(y(1)=0\)?</p>
+<p class="js-required"><input type="button" value="Solução" onclick="$('#intersol').toggle()" /></p>
+<div id="intersol" class="js-hidden">
+<p>Vimos anteriormente que a solução particular pedida é \(y(x)=\dfrac{2}{3}(\sqrt{x^3}-1)\). Então, o intervalo de definição da solução particular vem dado pela equação \(x^{3}\geq 0\), isto é, \(x\geq  0\).</p>
+<p>Portanto, o intervalo de definição da solução particular \(y(x)=\dfrac{2}{3}(\sqrt{x^3}-1)\) é \(\left[0, +\infty\right)\). Ou seja, a solução é definida para todos os valores de \(x\) positivos.</p>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_assignment" id="id31">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_assignment.png)"><h1 class="iDeviceTitle">Gráfico de função vs curva integral</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta31_120_2" class="block iDevice_content">
+<div class="exe-text"><p>O intervalo de definição é um único intervalo aberto. Não pode ser união de intervalos. Por exemplo, a solução geral da EDO \(y'+2xy^2=0\) é \(y=\dfrac{1}{x^2-C}\). E a solução particular que passa pelo ponto \(\left(0,-1\right)\) é \(y=\dfrac{1}{x^2-1}\).</p>
+<p>Observemos o seguinte:</p>
+<ul>
+<li>O domínio da função \(f(x)=\dfrac{1}{x^2-1}\) é \(D=\left(-\infty,-1\right)\cup \left(-1,1\right)\cup \left(1,+\infty\right)\)</li>
+<li>A solução da EDO de primeira ordem deve estar definida em um intervalo \(I\) onde ela é, no mínimo, uma vez derivável.</li>
+</ul>
+<p>Um erro comum seria dizer que o intervalo de definição da solução da EDO seria o mesmo que da função, isto é, \(\left(-\infty,-1\right)\cup \left(-1,1\right)\cup \left(1,+\infty\right)\). Mas... lembramos que as EDO descrevem fenômenos reais. Imagine que a EDO descreve a temperatura de um bolo depois de ser retirado do forno... O que aconteceria com o bolo uma hora depois de ser tirado do forno? Isto é, no instante \(x=1\). Explode? Melhor ter controle da temperatura a todo momento, né?</p>
+<p>Então combinamos que melhor ter definida a solução em um único intervalo. Qual dos ramos escolho? Isso vai depender da condição inicial, isto é, do ponto por onde passa a curva integral. </p>
+<p>No nosso caso, observe que a solução particular deve verificar que \(y(0)=-1\). Portanto \(0\) deve pertencer ao intervalo \(I\), e escolheremos o ramo \(\left(-1,1\right)\) já que \(0\in \left(-1,1\right)\). Isto é, o ponto \(0\in \left(0,1\right)\) deve estar curva integral de nossa solução. Os outros ramos da função correspondem a outras soluções particulares. Veja a figura abaixo, a nossa curva integral é só a laranja:</p>
+<figure class="exe-figure exe-image" style="width: 522px;"><img src="curvaintegral.png" alt="curvas integrais de soluçoes particulares" width="436" height="326" style="vertical-align: middle; margin: 10px;" vspace="10" hspace="10" />
+<figcaption class="figcaption"><span class="title"><em></em></span></figcaption>
+</figure>
+<p>Veja agora o que o chatgpt esboçou... Melhor confiar o justo nele!! Fique ligado!</p>
+<figure class="exe-figure exe-image" style="width: 450px;"><img src="curvaintegralerrada.png" alt="curvas integrais erradas" title="Curvas integrais geradas por IA" width="450" height="348" hspace="10" vspace="10" style="vertical-align: middle; margin: 10px;" />
+<figcaption class="figcaption"><span class="title"><em>Curvas integrais geradas por IA (confunde gráfico com curva integral)</em></span></figcaption>
+</figure></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Sob licença</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licença Creative Commons Atribuição Compartilha Igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="classificao_das_edos.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="definio_formal.html" class="next"><span>Seguinte<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Made with eXeLearning<span> (Nova janela)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
