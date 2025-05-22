@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="exe_lightbox.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Definição formal | INTRODUÇÃO ÀS EDO </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Begoña Alarcón Cotillas" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="exe_lightbox.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site exe-auto-math" id="exe-node-9"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar navegação</a></p>
+<header id="header" ><div id="headerContent">INTRODUÇÃO ÀS EDO</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Instruções</a></li>
+   <li><a href="desmitificando_as_edos.html" class="no-ch">Desmitificando as EDOs</a></li>
+   <li><a href="elementos_de_uma_edo.html" class="daddy">Elementos de uma EDO</a>
+   <ul class="other-section">
+      <li><a href="classificao_das_edos.html" class="no-ch">Classificação das EDOs</a></li>
+   </ul>
+   </li>
+   <li class="current-page-parent"><a href="soluo_de_uma_edo.html" class="current-page-parent daddy">Solução de uma EDO</a>
+   <ul>
+      <li id="active"><a href="definio_formal.html" class="active no-ch">Definição formal</a></li>
+      <li><a href="problema_de_valor_inicial.html" class="no-ch">Problema de Valor inicial</a></li>
+   </ul>
+   </li>
+   <li><a href="geogebrapython.html" class="no-ch">Geogebra/Python</a></li>
+   <li><a href="avalie_o_recurso.html" class="no-ch">Avalie o recurso!</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="soluo_de_uma_edo.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="problema_de_valor_inicial.html" class="next"><span>Seguinte<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Definição formal</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_assessment" id="id26">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_assessment.png)"><h1 class="iDeviceTitle">DEFINIÇÃO FORMAL</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta26_129_2" class="block iDevice_content">
+<div class="exe-text"><p>Uma solução de uma equação diferencial ordinária (EDO) é uma função \(y = \phi(x)\) que satisfaz a equação diferencial em um intervalo \(I\) da variável independente \(x\). Formalmente, se uma EDO é dada por</p>
+<p>\[F\left(x, y, y', y'', \dots, y^{(n)}\right) = 0,\] onde \(y^{(k)}\) denota a \(k\)-ésima derivada de \(y\) em relação a \(x\), então uma função \(\phi(x)\) é chamada de solução da EDO no intervalo \(I \subseteq \mathbb{R}\) se:</p>
+<ol>
+<li>\(\phi(x)\) é bem definida no intervalo \(I\).</li>
+<li>\(\phi(x)\) é uma função \(n\)-vezes diferenciável no intervalo \(I\).</li>
+<li>Quando \(\phi(x)\) e suas derivadas são substituídas na equação diferencial, a equação se torna uma identidade verdadeira para todo \(x\) em \(I\)</li>
+</ol>
+<p>Como já comentamos anteriormente, a solução de uma EDO é a função que você obtém ao "resolver" a equação, ou seja, ao encontrar a função que faz com que a equação seja verdadeira dentro de um intervalo específico da variável independente. Pode ser uma função específica (solução particular) ou uma família de funções que incluem todas as possibilidades (solução geral). E o intervalo de definição \(I\) é o conjunto de valores da variável onde a solução é válida e a equação faz sentido, garantindo que tudo se encaixe perfeitamente no quebra-cabeça que é a EDO!</p>
+<p>Neste texto trabalharemos com equações diferenciais que admitem solução. Isso não acontece sempre. O aluno curioso pode procurar por <a title="Sugestão" class="exe-dialog-link" rel="lightbox" href="#tad5667ad-faef-83e6-68a2-4fe4dfb30b34" id="linkad5667ad-faef-83e6-68a2-4fe4dfb30b34">Teorema de Existência e Unicidade</a> das EDOs em textos didaticos.</p>
+<p>Ao logo do texto aprenderemos como resolver alguns tipos de EDO, passo a passo, não se preocupe. Para já somente pediremos que você saiba dizer se uma função dada é solução ou não de uma EDO dada.</p>
+<p><span style="color: #fb5150;">Exemplo</span> Verifique que \(y(x)=7e^{2x}\) é solução da EDO \(y'=2y\) no intervalo \(\left(-\infty,+\infty\right)\).</p>
+<div id="tad5667ad-faef-83e6-68a2-4fe4dfb30b34" class="exe-dialog-text js-hidden">
+<p>Uma referência recomendada seria o livro: Dennis G Zill. Equações diferenciais com aplicações em modelagem. Ceneage Learning, 2016. 10a edição</p>
+</div></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solução" /></div><div class="feedback js-feedback js-hidden"><p>Comprovaremos que a derivada de \(y(x)=7e^{2x}\) é igual a \(2y(x)=2\cdot 7e^{2x}=14e^{2x}\).</p>
+<p>Efetivamente, a derivada de \(y(x)\) em relação a \(x\) é \[y'(x)=7\frac{d}{dx}(e^{2x})=7\cdot 2 \cdot e^{2x}=14e^{2x}\]</p>
+<p>Portanto, \(y'(x)=14e^{2x}=2y(x)\;\)<span class="mord"><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist"><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight"> e \(\;y(x)=7e^{2x}\) é solução da EDO \(y'=2y\) no intervalo \(\left(-\infty,+\infty\right)\), pois a solução \(y(x)=7e^{2x}\) é definida em todos os reais.</span></span></span></span></span></span></span></span></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper TrueFalseIdevice em_iDevice em_iDevice_question" id="id30">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Solução de EDO: Teste sua leitura...</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta30_112" class="block iDevice_content">
+<p>Responda se a afirmação é verdadeira ou falsa. </p>
+</div>
+<section class="question">
+<form name="true-false-form-0b30" action="#" class="activity-form">
+<h1 class="js-sr-av">Pergunta 1</h1>
+<div id="taquestion0b30" class="block iDevice_content">
+<p><img src="icon_um.1.PNG" width="59" height="59" style="magin: 0px 10px 0px 10px;" /> A função \(y(x) = 2 + e^{-3x}\) é solução da EDO \(\dfrac{dy}{dx} + 3y = 6\).</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true0b30"><input type="radio" name="option0b30" id="true0b30" class="exe-radio-option exe-radio-option-0-2-0b30-truefalse" /> Verdadeiro</label> 
+<label for="false0b30"><input type="radio" name="option0b30" id="false0b30" class="exe-radio-option exe-radio-option-1-2-0b30-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s0b30" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Feedback</h1>
+<p><strong id="s0b30-result" class="right">Verdadeiro</strong></p>
+<p>A função proposta é \(y(x)= 2 + e^{-3x}\). Agora, calculamos a derivada de \(y(x)\) em relação a \(x\):</p>
+<p>\(\dfrac{dy}{dx} = \dfrac{d}{dx}\left(2 + e^{-3x}\right)​=-3e^{-3x}\).</p>
+<p>Então, temos que \[y'+3y=-3e^{-3x}+3(2 + e^{-3x})=-3e^{-3x}+6+3e^{-3x}=6\] e a EDO é satisfeita.</p>
+<p>Portanto, a função \(y(x) = 2 + e^{-3x}\) é solução da EDO \(\frac{dy}{dx} + 3y = 6\) e a afirmação é VERDADEIRA</p>
+<p></p>
+</section>
+</section>
+<section class="question">
+<form name="true-false-form-1b30" action="#" class="activity-form">
+<h1 class="js-sr-av">Pergunta 2</h1>
+<div id="taquestion1b30" class="block iDevice_content">
+<p><img src="icon_dois.1.PNG" alt="" width="59" height="59" style="magin: 0px 10px 0px 10px;" /> A função \(y(x)=e^{3x}\) é solução da EDO \(y''-3y'+2y=0\)</p>
+</div>
+<p class="iDevice_answer js-required">
+<label for="true1b30"><input type="radio" name="option1b30" id="true1b30" class="exe-radio-option exe-radio-option-0-2-1b30-truefalse" /> Verdadeiro</label> 
+<label for="false1b30"><input type="radio" name="option1b30" id="false1b30" class="exe-radio-option exe-radio-option-1-2-1b30-truefalse" /> Falso</label>
+</p>
+</form>
+<section id="s1b30" class="feedback js-feedback js-hidden">
+<h1 class="js-sr-av">Feedback</h1>
+<p><strong id="s1b30-result" class="wrong">Falso</strong></p>
+<p>A função proposta é \(y(x)= e^{3x}\). Agora, calculamos as duas derivadas de \(y(x)\) em relação a \(x\):</p>
+<p>\(y'=\dfrac{d}{dx}(e^{3x})=3e^{3x}\)</p>
+<p>\(y''=\dfrac{d^2}{dx^2}(e^{3x})=\dfrac{d}{dx}(3e^{3x}=9e^{3x}\)</p>
+<p>Portanto, y''-3y'+2y=9e^{3x}-3\cdot 3e^{3x}+2\cdot e^{3x}=e^{3x}(9-9+2)=2e^{3x}, que é diferente de \(0\).</p>
+<p>Assim, \(y(x)=e^{3x}\) não é solução da EDP \(y''-3y'+2y=0\)</p>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Sob licença</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licença Creative Commons Atribuição Compartilha Igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="soluo_de_uma_edo.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="problema_de_valor_inicial.html" class="next"><span>Seguinte<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Made with eXeLearning<span> (Nova janela)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>

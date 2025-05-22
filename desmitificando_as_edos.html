@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Desmitificando as EDOs | INTRODUÇÃO ÀS EDO </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Begoña Alarcón Cotillas" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site exe-auto-math" id="exe-node-3"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar navegação</a></p>
+<header id="header" ><div id="headerContent">INTRODUÇÃO ÀS EDO</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Instruções</a></li>
+   <li id="active"><a href="desmitificando_as_edos.html" class="active no-ch">Desmitificando as EDOs</a></li>
+   <li><a href="elementos_de_uma_edo.html" class="daddy">Elementos de uma EDO</a>
+   <ul class="other-section">
+      <li><a href="classificao_das_edos.html" class="no-ch">Classificação das EDOs</a></li>
+   </ul>
+   </li>
+   <li><a href="soluo_de_uma_edo.html" class="daddy">Solução de uma EDO</a>
+   <ul class="other-section">
+      <li><a href="definio_formal.html" class="no-ch">Definição formal</a></li>
+      <li><a href="problema_de_valor_inicial.html" class="no-ch">Problema de Valor inicial</a></li>
+   </ul>
+   </li>
+   <li><a href="geogebrapython.html" class="no-ch">Geogebra/Python</a></li>
+   <li><a href="avalie_o_recurso.html" class="no-ch">Avalie o recurso!</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="elementos_de_uma_edo.html" class="next"><span>Seguinte<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Desmitificando as EDOs</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_announcement_white" id="id1">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_announcement_white.png)"><span class="iDeviceTitle">&nbsp;</span></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta1_121_2" class="block iDevice_content">
+<div class="exe-text"><div>
+<p><img src="img0.png" title="crescimentoplantas" width="283" height="283" style="vertical-align: baseline; margin: 10px;" alt="plantas crescendo" /></p>
+<p>Imagine que você está observando o crescimento de uma planta. No começo, ela cresce devagar, mas à medida que o tempo passa, esse crescimento acelera. A altura da planta em um certo instante depende de quanto tempo já passou, certo? Agora, imagine que, ao invés de apenas medir a altura da planta em cada momento, você quer entender como a taxa de crescimento da planta está mudando ao longo do tempo. É aí que entra o conceito de equações diferenciais.</p>
+<p>As equações diferenciais são usadas justamente para modelar situações em que queremos descrever como algo está mudando ao longo do tempo ou em relação a outra variável. Em vez de simplesmente dizer qual é o valor de uma variável, como a altura da planta, elas nos dizem como essa variável está variando. Por exemplo, no caso da planta, podemos modelar a taxa de crescimento dela com uma equação diferencial que relaciona a altura com o tempo e a forma como essa altura muda com o tempo.</p>
+</div>
+<div>
+<p><img src="img1.png" alt="velocidade carro" title="carro" width="281" height="281" style="vertical-align: baseline; margin: 10px;" /></p>
+<p>Um exemplo bem simples é o seguinte: digamos que você está dirigindo um carro. A distância que você percorre depende da velocidade em que você está. Se soubermos a sua velocidade a cada momento, podemos usar uma equação diferencial para determinar a distância total percorrida. Nesse caso, a distância <span class="exe-math code-only exe-math-engine exe-math-inline position-center"><span class="exe-math-code">\(s(t)\)</span></span> que você percorre ao longo do tempo \(t \) está relacionada à sua velocidade \(v(t) \) por meio da equação diferencial:</p>
+<p>\[ \frac{ds}{dt} = v(t)\]</p>
+<p>Aqui, a equação está dizendo que a taxa de variação da distância \( \left(ds/dt\right)\) é a velocidade do carro. Se você souber a velocidade em cada instante, pode calcular a distância total percorrida resolvendo essa equação.</p>
+</div>
+<div>
+<p><img src="img2.png" alt="circuito eletrico" title="circuito" width="280" height="280" style="vertical-align: baseline; margin: 10px;" /></p>
+<p>Outro exemplo prático são os circuitos elétricos. Imagine um circuito simples com uma bateria e um resistor. A corrente elétrica que passa pelo circuito depende da tensão da bateria, mas também do tempo, já que ela varia até se estabilizar. A lei de Ohm e as leis de Kirchhoff nos dão equações diferenciais que descrevem como essa corrente se comporta. Por exemplo:</p>
+<p>\[ L \,\frac{d^2Q}{dt^2} + R\,\frac{dQ}{dt} + \frac{Q}{C}= V(t),\] onde \(Q(t)\) é a carga no instante \(t\) e \(V(t)\) é a fonte de energia no mesmo instante.</p>
+</div>
+<p>Esses exemplos mostram que as equações diferenciais estão por toda parte, descrevendo fenômenos naturais e artificiais. Elas são a ferramenta ideal quando queremos modelar situações em que algo está mudando e queremos entender essas mudanças de maneira precisa. Seja o movimento dos planetas no espaço, o crescimento de populações ou até a propagação de calor, as equações diferenciais nos ajudam a transformar a realidade em matemática.</p>
+<p>Observe que os fenômenos que descrevem dependem unicamente de uma variável, o tempo, e suas derivadas são ordinárias (como em cálculo de uma variável). Esse tipo de equações se chamam equações diferenciais ordinárias ou EDO.</p>
+<p>Por outro lado, existem fenômenos que dependem de mais de uma variável. Pense, por exemplo, na temperatura de uma barra de metal. Ela varia tanto com o tempo \(t\) quanto com a posição ao longo da barra \(x\). Para descrever essas situações, usamos derivadas parciais — derivadas em relação a uma variável enquanto mantemos as outras fixas. Esse tipo de equação se chama equação em derivadas parciais, ou EDP.</p>
+<p>Um exemplo famoso é a equação do calor, que descreve como o calor se espalha ao longo de uma barra metálica:</p>
+<p>\[\dfrac{\partial u}{\partial t}=k \dfrac{\partial^2 u}{\partial t^2}\] </p>
+<p>Aqui, \(u(x,t)\) representa a temperatura em uma posição \(x\) e em um instante \(t\). Temos derivadas parciais tanto em relação ao tempo \(t\) quanto em relação ao espaço \(x\).</p>
+<p>Relaxa! Neste texto vamos nos concentrar apenas nas EDOs. Pode respirar :-)<br />Nosso objetivo agora é entender bem essas equações que dependem de apenas uma variável independente (como o tempo) antes de avançar para temas mais complexos.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_assessment_black" id="id0">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_assessment_black.png)"><h1 class="iDeviceTitle">Você sabe como surgiu o conceito de equação diferencial?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta0_120_2" class="block iDevice_content">
+<div class="exe-text"><figure class="exe-figure exe-image" style="width: 200px;"><img src="isaac_newton.jpg" alt="newton" title="newton" width="200" height="201" hspace="10" vspace="10" style="vertical-align: baseline; margin: 10px;" />
+<figcaption class="figcaption"><span class="title"><em>Isaac Newton</em></span></figcaption>
+</figure>
+<p>As equações diferenciais ordinárias (EDOs) têm suas raízes na matemática aplicada e física, surgindo no século XVII durante o desenvolvimento do cálculo diferencial e integral, principalmente pelos trabalhos de Isaac Newton e Gottfried Wilhelm Leibniz. Ambos buscavam entender a relação entre variáveis que mudavam continuamente e suas derivadas.</p>
+<p>Newton, em sua obra Principia Mathematica (1687), aplicou equações diferenciais para descrever as leis do movimento e da gravitação, considerando que as taxas de variação (derivadas) de quantidades físicas, como posição e velocidade, eram essenciais para entender o comportamento dos corpos em movimento.</p>
+<figure class="exe-figure exe-image" style="width: 200px;"><img src="joseph_fourier_1768_1830_granger.jpg" alt="fourier" title="fourier" width="200" height="256" hspace="10" vspace="10" style="vertical-align: baseline; margin: 10px;" />
+<figcaption class="figcaption"><span class="title"><em>Joseph Fourier</em></span></figcaption>
+</figure>
+<p>No início do século XVIII, matemáticos como Jakob Bernoulli e Leonhard Euler expandiram o estudo das EDOs, buscando soluções analíticas para equações simples. Euler, em particular, sistematizou muitas das técnicas básicas que usamos hoje, como a solução de equações de primeira e segunda ordem. Já no século XIX, com matemáticos como Pierre-Simon Laplace e Joseph Fourier, as EDOs começaram a ser aplicadas a uma vasta gama de problemas, incluindo calor, ondas e eletricidade. A teoria moderna das EDOs, focada na existência e unicidade das soluções, foi formalizada por Augustin-Louis Cauchy e Carl Gustav Jacobi.</p>
+<figure class="exe-figure exe-image" style="width: 200px;"><img src="poincare.jpg" alt="poincare" title="poincare" width="200" height="221" hspace="10" vspace="10" style="vertical-align: baseline; margin: 10px;" />
+<figcaption class="figcaption"><span class="title"><em>Henri Poincaré</em></span></figcaption>
+</figure>
+<p>No entanto, no final do século XIX, Henri Poincaré introduziu uma mudança de paradigma no estudo das EDOs, ao desenvolver a teoria qualitativa. Antes de Poincaré, o foco principal era encontrar soluções explícitas para equações específicas. Poincaré, por outro lado, reconheceu que, em muitos casos, encontrar soluções exatas era impossível, especialmente em sistemas dinâmicos complexos, como o problema dos três corpos na mecânica celeste. Ele propôs que, ao invés de se buscar apenas soluções analíticas, deveria-se investigar o comportamento geral das soluções por meio de uma abordagem geométrica.</p>
+<p>Poincaré introduziu o conceito de retratos de fase, onde o comportamento de um sistema dinâmico pode ser visualizado geometricamente em um espaço de fase, com cada ponto representando um estado do sistema. Essa abordagem permitiu identificar características importantes das soluções, como pontos de equilíbrio, órbitas periódicas e comportamento estável ou instável. Além disso, ele foi um dos precursores da teoria dos sistemas dinâmicos, que estuda as equações diferenciais como descritoras de trajetórias em espaços de fase. Essa nova perspectiva abriu caminho para o estudo da estabilidade das soluções e, mais tarde, para a teoria do caos, que explora como pequenas variações nas condições iniciais podem levar a comportamentos drasticamente diferentes.</p>
+<p>Assim, Poincaré foi crucial ao mudar o foco do estudo das EDOs de uma abordagem puramente analítica para uma abordagem qualitativa e geométrica, permitindo avanços significativos no entendimento de sistemas dinâmicos complexos na física, astronomia e outras áreas da ciência. Hoje, as EDOs são uma ferramenta central na modelagem de fenômenos como crescimento populacional, dinâmica de fluidos e circuitos elétricos.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Sob licença</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licença Creative Commons Atribuição Compartilha Igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="index.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="elementos_de_uma_edo.html" class="next"><span>Seguinte<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Made with eXeLearning<span> (Nova janela)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>

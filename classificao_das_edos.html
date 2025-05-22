@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Classificação das EDOs | INTRODUÇÃO ÀS EDO </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Begoña Alarcón Cotillas" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site exe-auto-math" id="exe-node-1"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar navegação</a></p>
+<header id="header" ><div id="headerContent">INTRODUÇÃO ÀS EDO</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Instruções</a></li>
+   <li><a href="desmitificando_as_edos.html" class="no-ch">Desmitificando as EDOs</a></li>
+   <li class="current-page-parent"><a href="elementos_de_uma_edo.html" class="current-page-parent daddy">Elementos de uma EDO</a>
+   <ul>
+      <li id="active"><a href="classificao_das_edos.html" class="active no-ch">Classificação das EDOs</a></li>
+   </ul>
+   </li>
+   <li><a href="soluo_de_uma_edo.html" class="daddy">Solução de uma EDO</a>
+   <ul class="other-section">
+      <li><a href="definio_formal.html" class="no-ch">Definição formal</a></li>
+      <li><a href="problema_de_valor_inicial.html" class="no-ch">Problema de Valor inicial</a></li>
+   </ul>
+   </li>
+   <li><a href="geogebrapython.html" class="no-ch">Geogebra/Python</a></li>
+   <li><a href="avalie_o_recurso.html" class="no-ch">Avalie o recurso!</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="elementos_de_uma_edo.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="soluo_de_uma_edo.html" class="next"><span>Seguinte<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Classificação das EDOs</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_assignment" id="id3">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_assignment.png)"><h1 class="iDeviceTitle">COMO AS EDO SÃO CLASSIFICADAS?</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta3_120_2" class="block iDevice_content">
+<div class="exe-text"><p>Existem várias maneiras de classificar as EDOs. Vamos pensar em três importantes:</p>
+<p><strong>Ordem da equação: </strong>A ordem de uma EDO é determinada pela derivada de maior grau presente na equação. Por exemplo:</p>
+<ul>
+<li>Primeira Ordem: Envolve apenas a primeira derivada. Exemplo: \(y'+y=e^x\) .</li>
+<li>Segunda Ordem: Envolve até a segunda derivada. Exemplo: \(y'' + 3y' + 2y = 0\).</li>
+<li>Ordem \(n\): Envolve derivadas até a ordem nnn. Exemplo: \(y^{(n)} + p_{n-1}(x) y^{(n-1)} + \dots + p_1(x) y' + p_0(x) y = g(x)\).</li>
+</ul>
+<p><strong>Lineares ou não lineares:</strong> É como perguntar se a equação é "simples" ou "complexa".</p>
+<ul>
+<li>Equações lineares: Uma equação é linear se tanto a função como todas as derivadas aparecem de forma simples, sem estarem elevadas ao quadrado, a outra potência, multiplicadas entre si ou envolvidas em funções não lineares.  Exemplo: \(y'+y=0\,\) ou \(\,y'' + p(x) y' + q(x) y = g(x)\).</li>
+<li>Equações não lineares: Uma equação é não linear quando não for linear em relação a \(y\) ou alguma de suas derivadas. Exemplo: \({y'}^2+y=x\,\) ou \(\,y''+\operatorname{sen}⁡(y)=0\). </li>
+</ul>
+<p><strong>Autônomas ou não autônomas: </strong>Aqui você tem que prestar atenção se a variável independente aparece na equação diferencial ou não.</p>
+<ul>
+<li>Autônomas: A equação não depende explicitamente da variável independente. Exemplo: \(y'+y=0\,\) ou \(\,y'''=y^2−4\,\).</li>
+<li>Não autônoma: A equação depende explicitamente da variável independente. Exemplo: \(y'+t\,y=0\,\) ou \(\,y''+\cos(x)=0\).</li>
+</ul></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultichoiceIdevice em_iDevice em_iDevice_question" id="id13">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Ordem de uma EDO: Teste sua leitura...</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<form name="multi-choice-form-13_86" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pergunta</h1>
+<div id="taquestion13_86" class="block question iDevice_content">
+<p><img src="icon_um.1.PNG" alt="" width="59" height="59" style="margin: 0px 10px 0px 10px;" />Qual é a ordem da seguinte equação diferencial?</p>
+<p>\(\frac{d^3y}{dx^3} + 2x\frac{d^2y}{dx^2} - \sin(x) \frac{dy}{dx} + y = 0\)</p>
+</div>
+<section class="iDevice_hint">
+<h1 class="iDevice_hint_title">Pista</h1>
+<div class="iDevice_hint_content js-hidden">
+<div id="tahint13_86" class="block iDevice_content">
+<p>Lembrando que \(y'=\frac{dy}{dx}\), \(y''=\frac{d^2y}{dx^2}\), etc</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respostas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i13_89" class="sr-av"><a href="#answer-13_89">Opção 1</a></label><input type="radio" name="option13_86" id="i13_89" class="exe-radio-option exe-radio-option-0-4-13_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-13_89"><div id="taans13_89" class="block iDevice_content">
+<p>Primeira Ordem</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i13_92" class="sr-av"><a href="#answer-13_92">Opção 2</a></label><input type="radio" name="option13_86" id="i13_92" class="exe-radio-option exe-radio-option-1-4-13_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-13_92"><div id="taans13_92" class="block iDevice_content">
+<p>Segunda Ordem</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i13_321" class="sr-av"><a href="#answer-13_321">Opção 3</a></label><input type="radio" name="option13_86" id="i13_321" class="exe-radio-option exe-radio-option-2-4-13_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-13_321"><div id="taans13_321" class="block iDevice_content">
+<p>Terceira Ordem</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i13_324" class="sr-av"><a href="#answer-13_324">Opção 4</a></label><input type="radio" name="option13_86" id="i13_324" class="exe-radio-option exe-radio-option-3-4-13_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-13_324"><div id="taans13_324" class="block iDevice_content">
+<p>Quarta Ordem</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Feedback</h1>
+<section id="sa0b13_86" class="feedback js-hidden">
+<div id="taf13_89" class=" iDevice_content">
+<p>Ops! Tente de novo!</p>
+</div>
+</section>
+<section id="sa1b13_86" class="feedback js-hidden">
+<div id="taf13_92" class=" iDevice_content">
+<p>Ops! Tente de novo!</p>
+</div>
+</section>
+<section id="sa2b13_86" class="feedback js-hidden">
+<div id="taf13_321" class=" iDevice_content">
+<p>Muito bom!!</p>
+</div>
+</section>
+<section id="sa3b13_86" class="feedback js-hidden">
+<div id="taf13_324" class=" iDevice_content">
+<p>Ops! Tente de novo!</p>
+</div>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solução</h1>
+<ol>
+<li><a href="#answer-13_89">Errado</a><span> (<a href="#sa0b13_86">Feedback</a>)</span></li>
+<li><a href="#answer-13_92">Errado</a><span> (<a href="#sa1b13_86">Feedback</a>)</span></li>
+<li><a href="#answer-13_321">Opção correta</a><span> (<a href="#sa2b13_86">Feedback</a>)</span></li>
+<li><a href="#answer-13_324">Errado</a><span> (<a href="#sa3b13_86">Feedback</a>)</span></li>
+</ol>
+</section>
+</section>
+<section class="question">
+<form name="multi-choice-form-13_95" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pergunta</h1>
+<div id="taquestion13_95" class="block question iDevice_content">
+<p><img src="icon_dois.1.PNG" width="59" height="59" style="margin: 0px 10px 0px 10px;" />Qual é a ordem da seguinte equação diferencial?</p>
+<p>\({y''\,}^2+{y'\,}^3=y^2x^3\)</p>
+</div>
+<section class="iDevice_hint">
+<h1 class="iDevice_hint_title">Pista</h1>
+<div class="iDevice_hint_content js-hidden">
+<div id="tahint13_95" class="block iDevice_content">
+<p>Se atente apenas nas ordens das derivadas. Não se deixe confundir com as potências!</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respostas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i13_98" class="sr-av"><a href="#answer-13_98">Opção 1</a></label><input type="radio" name="option13_95" id="i13_98" class="exe-radio-option exe-radio-option-0-4-13_95-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-13_98"><div id="taans13_98" class="block iDevice_content">
+<p>Segunda Ordem</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i13_101" class="sr-av"><a href="#answer-13_101">Opção 2</a></label><input type="radio" name="option13_95" id="i13_101" class="exe-radio-option exe-radio-option-1-4-13_95-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-13_101"><div id="taans13_101" class="block iDevice_content">
+<p>Terceira Ordem</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i13_327" class="sr-av"><a href="#answer-13_327">Opção 3</a></label><input type="radio" name="option13_95" id="i13_327" class="exe-radio-option exe-radio-option-2-4-13_95-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-13_327"><div id="taans13_327" class="block iDevice_content">
+<p>Quarta Ordem</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i13_330" class="sr-av"><a href="#answer-13_330">Opção 4</a></label><input type="radio" name="option13_95" id="i13_330" class="exe-radio-option exe-radio-option-3-4-13_95-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-13_330"><div id="taans13_330" class="block iDevice_content">
+<p>Quinta Ordem</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Feedback</h1>
+<section id="sa0b13_95" class="feedback js-hidden">
+<div id="taf13_98" class=" iDevice_content">
+<p>Muito bom!</p>
+</div>
+</section>
+<section id="sa1b13_95" class="feedback js-hidden">
+<div id="taf13_101" class=" iDevice_content">
+<p>Ops! Tente de novo!</p>
+</div>
+</section>
+<section id="sa2b13_95" class="feedback js-hidden">
+<div id="taf13_327" class=" iDevice_content">
+<p>Ops! Tente de novo!</p>
+</div>
+</section>
+<section id="sa3b13_95" class="feedback js-hidden">
+<div id="taf13_330" class=" iDevice_content">
+<p>Ops! Tente de novo!</p>
+</div>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solução</h1>
+<ol>
+<li><a href="#answer-13_98">Opção correta</a><span> (<a href="#sa0b13_95">Feedback</a>)</span></li>
+<li><a href="#answer-13_101">Errado</a><span> (<a href="#sa1b13_95">Feedback</a>)</span></li>
+<li><a href="#answer-13_327">Errado</a><span> (<a href="#sa2b13_95">Feedback</a>)</span></li>
+<li><a href="#answer-13_330">Errado</a><span> (<a href="#sa3b13_95">Feedback</a>)</span></li>
+</ol>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultichoiceIdevice em_iDevice em_iDevice_question" id="id17">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Linearidade de uma EDO: Teste sua leitura...</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<form name="multi-choice-form-17_86" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pergunta</h1>
+<div id="taquestion17_86" class="block question iDevice_content">
+<p><img src="icon_um.1.PNG" alt="" width="59" height="59" style="margin: 0px 10px 0px 10px;" />A seguinte equação diferencial é linear ou não linear?</p>
+<p>\(y'' + xy' + y = 0\)</p>
+<p></p>
+<p></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respostas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i17_89" class="sr-av"><a href="#answer-17_89">Opção 1</a></label><input type="radio" name="option17_86" id="i17_89" class="exe-radio-option exe-radio-option-0-2-17_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-17_89"><div id="taans17_89" class="block iDevice_content">
+<p>Linear</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i17_92" class="sr-av"><a href="#answer-17_92">Opção 2</a></label><input type="radio" name="option17_86" id="i17_92" class="exe-radio-option exe-radio-option-1-2-17_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-17_92"><div id="taans17_92" class="block iDevice_content">
+<p>Não linear</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Feedback</h1>
+<section id="sa0b17_86" class="feedback js-hidden">
+<div id="taf17_89" class=" iDevice_content">
+<p>Muito bom!</p>
+</div>
+</section>
+<section id="sa1b17_86" class="feedback js-hidden">
+<div id="taf17_92" class=" iDevice_content">
+<p>Ops! A variável independente pode aparecer multiplicando à função e a qualquer derivada. Tente de novo!</p>
+</div>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solução</h1>
+<ol>
+<li><a href="#answer-17_89">Opção correta</a><span> (<a href="#sa0b17_86">Feedback</a>)</span></li>
+<li><a href="#answer-17_92">Errado</a><span> (<a href="#sa1b17_86">Feedback</a>)</span></li>
+</ol>
+</section>
+</section>
+<section class="question">
+<form name="multi-choice-form-17_95" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pergunta</h1>
+<div id="taquestion17_95" class="block question iDevice_content">
+<p><img src="icon_dois.1.PNG" alt="" width="59" height="59" style="margin: 0px 10px 0px 10px;" />A seguinte equação diferencial é linear ou não linear?</p>
+<p>\(y' + y^3 = x\)</p>
+<p> </p>
+<p></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respostas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i17_98" class="sr-av"><a href="#answer-17_98">Opção 1</a></label><input type="radio" name="option17_95" id="i17_98" class="exe-radio-option exe-radio-option-0-2-17_95-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-17_98"><div id="taans17_98" class="block iDevice_content">
+<p>Linear</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i17_101" class="sr-av"><a href="#answer-17_101">Opção 2</a></label><input type="radio" name="option17_95" id="i17_101" class="exe-radio-option exe-radio-option-1-2-17_95-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-17_101"><div id="taans17_101" class="block iDevice_content">
+<p>Não linear</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Feedback</h1>
+<section id="sa0b17_95" class="feedback js-hidden">
+<div id="taf17_98" class=" iDevice_content">
+<p>Ops! Lembre que nem a função nem nenhuma das derivadas podem estar elevadas a qualquer expoente diferente de um. Tente de novo!</p>
+</div>
+</section>
+<section id="sa1b17_95" class="feedback js-hidden">
+<div id="taf17_101" class=" iDevice_content">
+<p>Muito bom!</p>
+</div>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solução</h1>
+<ol>
+<li><a href="#answer-17_98">Errado</a><span> (<a href="#sa0b17_95">Feedback</a>)</span></li>
+<li><a href="#answer-17_101">Opção correta</a><span> (<a href="#sa1b17_95">Feedback</a>)</span></li>
+</ol>
+</section>
+</section>
+<section class="question">
+<form name="multi-choice-form-17_342" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pergunta</h1>
+<div id="taquestion17_342" class="block question iDevice_content">
+<p><img src="icon_tres.PNG" alt="" width="59" height="59" style="margin: 0px 10px 0px 10px;" />A seguinte equação diferencial é linear ou não linear?</p>
+<p>\(\operatorname{sen}(y'')+y'=\cos(x)\)</p>
+<p></p>
+<p></p>
+<p></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respostas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i17_345" class="sr-av"><a href="#answer-17_345">Opção 1</a></label><input type="radio" name="option17_342" id="i17_345" class="exe-radio-option exe-radio-option-0-2-17_342-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-17_345"><div id="taans17_345" class="block iDevice_content">
+<p>Linear</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i17_348" class="sr-av"><a href="#answer-17_348">Opção 2</a></label><input type="radio" name="option17_342" id="i17_348" class="exe-radio-option exe-radio-option-1-2-17_342-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-17_348"><div id="taans17_348" class="block iDevice_content">
+<p>Não linear</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Feedback</h1>
+<section id="sa0b17_342" class="feedback js-hidden">
+<div id="taf17_345" class=" iDevice_content">
+<p>Ops! Lembre que nem a função nem nenhuma das derivadas podem ser argumento de funções. Tente de novo!</p>
+</div>
+</section>
+<section id="sa1b17_342" class="feedback js-hidden">
+<div id="taf17_348" class=" iDevice_content">
+<p>Muito bom!</p>
+</div>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solução</h1>
+<ol>
+<li><a href="#answer-17_345">Errado</a><span> (<a href="#sa0b17_342">Feedback</a>)</span></li>
+<li><a href="#answer-17_348">Opção correta</a><span> (<a href="#sa1b17_342">Feedback</a>)</span></li>
+</ol>
+</section>
+</section>
+<section class="question">
+<form name="multi-choice-form-17_351" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pergunta</h1>
+<div id="taquestion17_351" class="block question iDevice_content">
+<p><img src="icon_quatro.PNG" alt="" width="59" height="59" style="margin: 0px 10px 0px 10px;" />A seguinte equação diferencial é linear ou não linear?</p>
+<p>\(y'''+yy'=3x\)</p>
+<p></p>
+<p></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respostas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i17_354" class="sr-av"><a href="#answer-17_354">Opção 1</a></label><input type="radio" name="option17_351" id="i17_354" class="exe-radio-option exe-radio-option-0-2-17_351-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-17_354"><div id="taans17_354" class="block iDevice_content">
+<p>Linear</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i17_357" class="sr-av"><a href="#answer-17_357">Opção 2</a></label><input type="radio" name="option17_351" id="i17_357" class="exe-radio-option exe-radio-option-1-2-17_351-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-17_357"><div id="taans17_357" class="block iDevice_content">
+<p>Não linear</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Feedback</h1>
+<section id="sa0b17_351" class="feedback js-hidden">
+<div id="taf17_354" class=" iDevice_content">
+<p>Ops! Lembre que nem a função nem suas derivadas não podem aparecer multiplicadas entre si. Tente de novo!</p>
+</div>
+</section>
+<section id="sa1b17_351" class="feedback js-hidden">
+<div id="taf17_357" class=" iDevice_content">
+<p>Muito bom!</p>
+</div>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solução</h1>
+<ol>
+<li><a href="#answer-17_354">Errado</a><span> (<a href="#sa0b17_351">Feedback</a>)</span></li>
+<li><a href="#answer-17_357">Opção correta</a><span> (<a href="#sa1b17_351">Feedback</a>)</span></li>
+</ol>
+</section>
+</section>
+<section class="question">
+<form name="multi-choice-form-17_360" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pergunta</h1>
+<div id="taquestion17_360" class="block question iDevice_content">
+<p><img src="icon_cinco.PNG" alt="" width="59" height="59" style="margin: 0px 10px 0px 10px;" />A seguinte equação diferencial é linear ou não linear?</p>
+<p>\(y''' = \cos(x)y\)</p>
+<p></p>
+<p></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respostas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i17_363" class="sr-av"><a href="#answer-17_363">Opção 1</a></label><input type="radio" name="option17_360" id="i17_363" class="exe-radio-option exe-radio-option-0-2-17_360-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-17_363"><div id="taans17_363" class="block iDevice_content">
+<p>Linear</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i17_366" class="sr-av"><a href="#answer-17_366">Opção 2</a></label><input type="radio" name="option17_360" id="i17_366" class="exe-radio-option exe-radio-option-1-2-17_360-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-17_366"><div id="taans17_366" class="block iDevice_content">
+<p>Não linear</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Feedback</h1>
+<section id="sa0b17_360" class="feedback js-hidden">
+<div id="taf17_363" class=" iDevice_content">
+<p>Muito bom!</p>
+</div>
+</section>
+<section id="sa1b17_360" class="feedback js-hidden">
+<div id="taf17_366" class=" iDevice_content">
+<p>Ops! Todas as funções que dependem somente da variável independente podem aparecer multiplicando à função e a qualquer derivada. Tente de novo!</p>
+</div>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solução</h1>
+<ol>
+<li><a href="#answer-17_363">Opção correta</a><span> (<a href="#sa0b17_360">Feedback</a>)</span></li>
+<li><a href="#answer-17_366">Errado</a><span> (<a href="#sa1b17_360">Feedback</a>)</span></li>
+</ol>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultichoiceIdevice em_iDevice em_iDevice_question" id="id19">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Autonomia de uma EDO: Teste sua leitura...</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<form name="multi-choice-form-19_86" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pergunta</h1>
+<div id="taquestion19_86" class="block question iDevice_content">
+<p><img src="icon_um.1.PNG" alt="" width="59" height="59" style="margin: 0px 10px 0px 10px;" />A seguinte equação diferencial é autônoma ou não autônoma?</p>
+<p>\(y'=y^2-3y\)</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respostas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i19_89" class="sr-av"><a href="#answer-19_89">Opção 1</a></label><input type="radio" name="option19_86" id="i19_89" class="exe-radio-option exe-radio-option-0-2-19_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-19_89"><div id="taans19_89" class="block iDevice_content">
+<p>Autônoma</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i19_92" class="sr-av"><a href="#answer-19_92">Opção 2</a></label><input type="radio" name="option19_86" id="i19_92" class="exe-radio-option exe-radio-option-1-2-19_86-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-19_92"><div id="taans19_92" class="block iDevice_content">
+<p>Não autônoma</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Feedback</h1>
+<section id="sa0b19_86" class="feedback js-hidden">
+<div id="taf19_89" class=" iDevice_content">
+<p>Muito bom!</p>
+</div>
+</section>
+<section id="sa1b19_86" class="feedback js-hidden">
+<div id="taf19_92" class=" iDevice_content">
+<p>Ops! Se atente à variável independente. Tente de novo!</p>
+</div>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solução</h1>
+<ol>
+<li><a href="#answer-19_89">Opção correta</a><span> (<a href="#sa0b19_86">Feedback</a>)</span></li>
+<li><a href="#answer-19_92">Errado</a><span> (<a href="#sa1b19_86">Feedback</a>)</span></li>
+</ol>
+</section>
+</section>
+<section class="question">
+<form name="multi-choice-form-19_95" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pergunta</h1>
+<div id="taquestion19_95" class="block question iDevice_content">
+<p><img src="icon_dois.1.PNG" alt="" width="59" height="59" style="margin: 0px 10px 0px 10px;" />A seguinte equação diferencial é autônoma ou não autônoma?</p>
+<p>\(y''+y'=x^2\)</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respostas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i19_98" class="sr-av"><a href="#answer-19_98">Opção 1</a></label><input type="radio" name="option19_95" id="i19_98" class="exe-radio-option exe-radio-option-0-2-19_95-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-19_98"><div id="taans19_98" class="block iDevice_content">
+<p>Autônoma</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i19_101" class="sr-av"><a href="#answer-19_101">Opção 2</a></label><input type="radio" name="option19_95" id="i19_101" class="exe-radio-option exe-radio-option-1-2-19_95-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-19_101"><div id="taans19_101" class="block iDevice_content">
+<p>Não autônoma</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Feedback</h1>
+<section id="sa0b19_95" class="feedback js-hidden">
+<div id="taf19_98" class=" iDevice_content">
+<p>Ops! Se atente à variável independente. Tente de novo!</p>
+</div>
+</section>
+<section id="sa1b19_95" class="feedback js-hidden">
+<div id="taf19_101" class=" iDevice_content">
+<p>Muito bom!</p>
+</div>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solução</h1>
+<ol>
+<li><a href="#answer-19_98">Errado</a><span> (<a href="#sa0b19_95">Feedback</a>)</span></li>
+<li><a href="#answer-19_101">Opção correta</a><span> (<a href="#sa1b19_95">Feedback</a>)</span></li>
+</ol>
+</section>
+</section>
+<section class="question">
+<form name="multi-choice-form-19_372" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pergunta</h1>
+<div id="taquestion19_372" class="block question iDevice_content">
+<p><img src="icon_tres.PNG" alt="" width="59" height="59" style="margin: 0px 10px 0px 10px;" />A seguinte equação diferencial é autônoma ou não autônoma? </p>
+<p>\(y''+\cos(y)=0\)</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respostas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i19_375" class="sr-av"><a href="#answer-19_375">Opção 1</a></label><input type="radio" name="option19_372" id="i19_375" class="exe-radio-option exe-radio-option-0-2-19_372-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-19_375"><div id="taans19_375" class="block iDevice_content">
+<p>Autônoma</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i19_378" class="sr-av"><a href="#answer-19_378">Opção 2</a></label><input type="radio" name="option19_372" id="i19_378" class="exe-radio-option exe-radio-option-1-2-19_372-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-19_378"><div id="taans19_378" class="block iDevice_content">
+<p>Não autônoma</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Feedback</h1>
+<section id="sa0b19_372" class="feedback js-hidden">
+<div id="taf19_375" class=" iDevice_content">
+<p>Muito bom!</p>
+</div>
+</section>
+<section id="sa1b19_372" class="feedback js-hidden">
+<div id="taf19_378" class=" iDevice_content">
+<p>Ops! Se atente à variável independente. Tente de novo!</p>
+</div>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solução</h1>
+<ol>
+<li><a href="#answer-19_375">Opção correta</a><span> (<a href="#sa0b19_372">Feedback</a>)</span></li>
+<li><a href="#answer-19_378">Errado</a><span> (<a href="#sa1b19_372">Feedback</a>)</span></li>
+</ol>
+</section>
+</section>
+<section class="question">
+<form name="multi-choice-form-19_381" action="#" onsubmit="return false" class="activity-form">
+<h1 class="js-sr-av">Pergunta</h1>
+<div id="taquestion19_381" class="block question iDevice_content">
+<p><img src="icon_quatro.PNG" alt="" width="59" height="59" style="margin: 0px 10px 0px 10px;" />A seguinte equação diferencial é autônoma ou não autônoma?</p>
+<p>\(x''+tx'+x=0\)</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respostas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i19_384" class="sr-av"><a href="#answer-19_384">Opção 1</a></label><input type="radio" name="option19_381" id="i19_384" class="exe-radio-option exe-radio-option-0-2-19_381-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-19_384"><div id="taans19_384" class="block iDevice_content">
+<p>Autônoma</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="i19_387" class="sr-av"><a href="#answer-19_387">Opção 2</a></label><input type="radio" name="option19_381" id="i19_387" class="exe-radio-option exe-radio-option-1-2-19_381-multi"/>
+</p>
+<div class="iDevice_answer-content" id="answer-19_387"><div id="taans19_387" class="block iDevice_content">
+<p>Não autônoma</p>
+</div>
+</div>
+</section>
+</section>
+<section class="iDevice_feedbacks js-feedback">
+<h1 class="js-sr-av">Feedback</h1>
+<section id="sa0b19_381" class="feedback js-hidden">
+<div id="taf19_384" class=" iDevice_content">
+<p>Ops! Se atente à variável independente. Tente de novo!</p>
+</div>
+</section>
+<section id="sa1b19_381" class="feedback js-hidden">
+<div id="taf19_387" class=" iDevice_content">
+<p>Muito bom!</p>
+</div>
+</section>
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Solução</h1>
+<ol>
+<li><a href="#answer-19_384">Errado</a><span> (<a href="#sa0b19_381">Feedback</a>)</span></li>
+<li><a href="#answer-19_387">Opção correta</a><span> (<a href="#sa1b19_381">Feedback</a>)</span></li>
+</ol>
+</section>
+</section>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Sob licença</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licença Creative Commons Atribuição Compartilha Igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="elementos_de_uma_edo.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="soluo_de_uma_edo.html" class="next"><span>Seguinte<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Made with eXeLearning<span> (Nova janela)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>

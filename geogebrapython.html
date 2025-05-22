@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Geogebra/Python | INTRODUÇÃO ÀS EDO </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Begoña Alarcón Cotillas" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site exe-auto-math" id="exe-node-11"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar navegação</a></p>
+<header id="header" ><div id="headerContent">INTRODUÇÃO ÀS EDO</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Instruções</a></li>
+   <li><a href="desmitificando_as_edos.html" class="no-ch">Desmitificando as EDOs</a></li>
+   <li><a href="elementos_de_uma_edo.html" class="daddy">Elementos de uma EDO</a>
+   <ul class="other-section">
+      <li><a href="classificao_das_edos.html" class="no-ch">Classificação das EDOs</a></li>
+   </ul>
+   </li>
+   <li><a href="soluo_de_uma_edo.html" class="daddy">Solução de uma EDO</a>
+   <ul class="other-section">
+      <li><a href="definio_formal.html" class="no-ch">Definição formal</a></li>
+      <li><a href="problema_de_valor_inicial.html" class="no-ch">Problema de Valor inicial</a></li>
+   </ul>
+   </li>
+   <li id="active"><a href="geogebrapython.html" class="active no-ch">Geogebra/Python</a></li>
+   <li><a href="avalie_o_recurso.html" class="no-ch">Avalie o recurso!</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="problema_de_valor_inicial.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="avalie_o_recurso.html" class="next"><span>Seguinte<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Geogebra/Python</h1></header>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_geogebra" id="id45">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_geogebra.png)"><h1 class="iDeviceTitle">Com Geogebra</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta45_120_2" class="block iDevice_content">
+<div class="exe-text"><p>Esboçar curvas integrais no Geogebra é bem simples!!</p>
+<p>Abra o <a href="https://www.geogebra.org/classic?lang=pt" title="Geogebra Classic web">Geogebra Classic</a> no navegador de seu desktop ou instale o aplicativo no seu celular ou tablet. <a href="https://www.geogebra.org/download?lang=pt" title="Download Geogebra">Acesse aqui o site oficial para download.</a></p>
+<p>Também pode instalar no seu desktop o Geogebra Classic, pode escolher o 5 ou o 6. O Geogebra 5 é bem mais completo, mas para esboçar curvas é suficiente o Geogebra 6 que possui uma interface mais parecida ao Geogebra Classic do navegador web.</p>
+<ul>
+<li>Para esboçar a solução geral da EDO \(\; y'=f(x,y)\; \) (vai depender do parâmetro \(C\)) usamos o comando:</li>
+</ul>
+<p style="text-align: center;"><strong>ResolverEDO(f(x,y))</strong></p>
+<p>Observe que o Geogebra criará um botão deslizante \(C\). Pode mexer no botão para ver diferentes soluções particulares, todas elas dependendo do valor do parâmetro \(C\). </p>
+<p>Para ver todas as soluções juntas, clique nos três pontinhos à direita do comando ResolverEDO, depois em configurações e, finalmente, selecione a opção "Exibir Rastro". Pode "separar" as soluciones configurando a opção Incremento do botão deslizante.</p>
+<ul>
+<li>Para esboçar a solução do PVI \(\begin{cases}y'=f(x,y) \\ y(x_0)=y_0\end{cases}\) usamos o comando:</li>
+</ul>
+<p style="text-align: center;"><strong>ResolverEDO(f(x,y),(x_0,y_0))</strong></p>
+<p><strong>Exemplo:</strong></p>
+<p><img src="icon_um.1.PNG" width="59" height="59" style="magin: 0px 10px 0px 10px;" /> Esboçar as curvas integrais da EDO \(\; y'=xy \; \) </p>
+<p><img src="icon_dois.1.PNG" width="59" height="59" style="magin: 0px 10px 0px 10px;" /> Esboçar a curva integral da EDO \(y'=xy\) que passa pelo ponto \((0,2)\)</p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solução" /></div><div class="feedback js-feedback js-hidden"><p><iframe width="560" height="314" src="https://www.youtube.com/embed/yBiUVrWIZDU" allowfullscreen="allowfullscreen"></iframe></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_computer" id="id44">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_computer.png)"><h1 class="iDeviceTitle">Código Python</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta44_120_2" class="block iDevice_content">
+<div class="exe-text"><p>Esboçar curvas integrais com Python é bem simples!</p>
+<p>Esse é o código da imagem das curvas integrais do exemplo \(\dfrac{dy}{dx}=xy\) do capítulo Solução de uma EDO.</p>
+<p>import numpy as np<br />import matplotlib.pyplot as plt</p>
+<p># Valores de x<br />x = np.linspace(-3, 3, 400)</p>
+<p># Lista de constantes C<br />C_values = [-2, -1, 0, 1, 2]</p>
+<p># Criar figura<br />plt.figure(figsize=(10, 6))</p>
+<p># Plotar as curvas integrais para cada valor de C<br />for C in C_values:<br />    y = C * np.exp(x**2 / 2)<br />    plt.plot(x, y, label=f'C = {C}')</p>
+<p># Personalização do gráfico<br />plt.axhline(0, color='black', linewidth=0.5)<br />plt.axvline(0, color='black', linewidth=0.5)<br />plt.title("Curvas integrais da EDO: y' = x * y")<br />plt.xlabel("x")<br />plt.ylabel("y")<br />plt.grid(True)<br />plt.legend()</p>
+<p># Mostrar gráfico<br />plt.show()</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_exer" id="id48">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_exer.png)"><h1 class="iDeviceTitle">Exercício</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta48_123_2" class="block iDevice_content">
+<div class="exe-text"><p><img src="icon_um.png" title="icon_um" width="40" height="59" style="margin: 0px 10px 0px 10px;" />Esboce com o Geogebra as curvas integrais da EDO \(y'+2xy^2=0\) do capítulo de <a href="soluo_de_uma_edo.html" title="Acesse o conteúdo da seção" class="exe-tooltip plain-tt">Solução de uma EDO</a>. Tente adicionar também as legendas!</p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solução" /></div><div class="feedback js-feedback js-hidden"><p>Temos que a solução geral da nossa EDO \(\;y’+2xy^2z \quad\) é \(\quad y=\dfrac{1}{x^2+C}\)</p>
+<p>Utilizando o comando ResolverEDO(f’(x.y),(x_0,y_0) no Geogebra, encontramos gráficos para alguns valores do parâmetro \(C\) de nossa solução geral. Será que todos representam curvas integrais, isto é, soluções de nossa EDO??</p>
+<p><img src="img0.1.png" width="772" height="350" alt="Gráficos dependentes do valor de C" /></p>
+<p>Vimos na seção <a href="soluo_de_uma_edo.html" title="Acesse o Capítulo" class="exe-tooltip plain-tt">Solução de uma EDO</a> que a nossa solução só faz sentido se for coerente com o fenômeno que a mesma se propõe a descrever (por exemplo, um carro não pode sumir no meio do caminho, certo? As soluções devem ser contínuas e diferenciáveis). Podemos então dizer que o gráfico com parâmetro  \(C=1\) é o único que representa uma curva integral, isto é, uma solução de nossa EDO. Isso se torna mais claro se  percebermos que a função \(y=\frac{1}{x^2+1}\) está definida em um único intervalo \( (-\infty,\infty) \) e atende a condição inicial \(y(0)=1\).</p>
+<p>Mas não desanime, podemos limitar o intervalo dos gráficos correspondentes a outros valores do parâmetro \(C\) para que de fato representem uma solução de nossa EDO. Utilizando o comando Se(Condição, Então) do Geogebra, limitamos o intervalo da solução particular \(y=\frac{1}{x^2-1}, C=1\). Repare que cada uma das curvas integrais representam uma solução que atende a uma condição inicial  \(y(x_0)=y_0\).</p>
+<p><img src="img1.1.png" width="770" height="350" alt="Curvas Integrais do gráfico \(y=1/x^2+1\)" /></p>
+<p>Você pode fazer o mesmo para os gráficos \(y=\frac{1}{x^2-5}\) e \(y=\frac{1}{x^2-3}\) para praticar. Lembre-se de que sua condição inicial deve ser satisfeita dentro do intervalo de definição.</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper textIdevice em_iDevice em_iDevice_exer" id="id49">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_exer.png)"><h1 class="iDeviceTitle">Exercício</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta49_124_2" class="block iDevice_content">
+<div class="exe-text"><p><img src="icon_dois.png" width="40" height="40" style="margin: 0px 10px 0px 10px;" />Esboce com o Python o diagrama de curvas integrais da EDO \(y'+2xy^2=0\). Tente adicionar também as legendas!</p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solução" /></div><div class="feedback js-feedback js-hidden"><p>Esse é o código da imagem das curvas integrais do exemplo \(\frac{dy}{dx}=-2xy^2\) do capítulo <a href="soluo_de_uma_edo.html" title="Acesse o Capítulo" class="exe-tooltip plain-tt">Solução de uma EDO</a>.</p>
+<p>import numpy as np<br />import matplotlib.pyplot as plt</p>
+<p># Solução da EDO: y(x) = 1 / (x^2 - C)<br />def y_sol(x, C):<br />    return 1 / (x**2 - C)</p>
+<p># Todas as curvas usam C = 1 agora<br />C = 1</p>
+<p># Domínios ajustados para evitar assíntota em x = ±1<br />x1 = np.linspace(-2, -1.001, 400)<br />x2 = np.linspace(-0.999, 0.999, 400)<br />x3 = np.linspace(1.001, 2, 400)</p>
+<p># Plot<br />plt.figure(figsize=(7, 5))</p>
+<p>plt.plot(x1, y_sol(x1, C), label=r"$y(x) = \frac{1}{x^2 - 1},\ y(-1.5)=0.8$", color='tab:blue')<br />plt.plot(x2, y_sol(x2, C), label=r"$y(x) = \frac{1}{x^2 - 1},\ y(0) = -1$", color='tab:orange')<br />plt.plot(x3, y_sol(x3, C), label=r"$y(x) = \frac{1}{x^2 - 1},\ y(1.5)=0.8$", color='tab:green')</p>
+<p>plt.ylim(-10, 10)<br />plt.xlim(-2, 2)<br />plt.xlabel("x")<br />plt.ylabel("y")<br />plt.title(r"Curva Integral para a EDO $y' + 2xy^2 = 0$ com $y(0) = -1$")<br />plt.grid(True)<br />plt.legend()<br />plt.show()</p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Sob licença</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licença Creative Commons Atribuição Compartilha Igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="problema_de_valor_inicial.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="avalie_o_recurso.html" class="next"><span>Seguinte<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Made with eXeLearning<span> (Nova janela)</span></span></a></p><script type="text/javascript" src="_style_js.js"></script></body></html>
