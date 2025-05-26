@@ -55,19 +55,20 @@
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <div id="ta37_123_2" class="block iDevice_content">
-<div class="exe-text"><p>Voltemos para a EDO \(\dfrac{dy}{dx}=2x\).</p>
-<p>Vimos anteriormente que \(y(x) = x^2 + C\) é a solução geral. Isto é, todas as funções dessa família a um parâmetro verificam a equação diferencial, para qualquer valor da constante \(C\).</p>
-<p>Agora, também vimos que somente há uma que passa pelo ponto especifico \(\left(0,\pi \right)\), isto é, que verifique que \(y(0) = \pi\). Ela é \(y(x) = x^2 + \pi\) e é uma solução particular.</p>
+<div class="exe-text"><p>Voltemos para a EDO \(\dfrac{dy}{dx}=2x.\)</p>
+<p>Vimos anteriormente que \(y(x) = x^2 + C\) é a solução geral. Isto é, todas as funções dessa família a um parâmetro verificam a equação diferencial, para qualquer valor da constante \(C.\)</p>
+<p>Agora, também vimos que somente há uma que passa pelo ponto especifico \(\left(0,\pi \right)\), isto é, que verifique que \(y(0) = \pi.\) Ela é \(y(x) = x^2 + \pi\) e é uma solução particular.</p>
 <p>Pronto! Sem saber você já tinha resolvido um Problema de Valor Inicial ou PVI. Este problema consiste em resolver uma EDO sujeita a alguns dados iniciais.</p>
 <p>No nosso exemplo, o PVI seria</p>
-<p>\[\begin{cases} \dfrac{dy}{dx}=2x \\ y(0) = \pi \end{cases}\]</p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Resolva o PVI: y'=7x^2+2, y(1)=0" /></div><div class="feedback js-feedback js-hidden"><p>O PVI seria \(\begin{cases} \dfrac{dy}{dx}=7x^2+2 \\ y(1) = 0 \end{cases}\)</p>
+<p>\[\begin{cases} \dfrac{dy}{dx}=2x \\ y(0) = \pi \end{cases}\]</p>
+<p><strong>Exemplo: Resolva o PVI \(y'=7x^2+2, y(1)=0\)</strong></p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solução" /></div><div class="feedback js-feedback js-hidden"><p>O PVI seria \(\begin{cases} \dfrac{dy}{dx}=7x^2+2 \\ y(1) = 0 \end{cases}\)</p>
 <p>Resolvamos a EDO primeiro:</p>
 <p>Como \(\dfrac{dy}{dx}=7x^2+2\), podemos integrar em relação a \(x\) e encontrar uma primitiva. </p>
-<p>\(y=\int (7x^2+2) dx=7\dfrac{x^3}{3}+2x+C\).</p>
+<p>\(y=\int (7x^2+2) dx=7\dfrac{x^3}{3}+2x+C.\)</p>
 <p>Logo, \(y=\dfrac{7x^3}{3}+2x+C\) é a solução geral da EDO.</p>
 <p>Para resolver o PVI precisamos de encontrar uma solução particular que verifique a condição inicial, isto é, \(y(1)=0.\) Substituiremos, então, \(x\) por \(1\) e \(y\) por \(0\) na solução geral. Assim:</p>
 <p>\(0=\dfrac{7\cdot 1}{3}+2\cdot 1 + C\), donde \(C=-\dfrac{7}{3}-2=-\dfrac{13}{3}\)</p>
-<p>Logo, a solução do PVI será \(y=\dfrac{7x^3}{3}+2x-\dfrac{13}{3},\) para todo \(x \in \left(-\infty,+\infty\right)\).</p></div>
+<p>Logo, a solução do PVI será \(y=\dfrac{7x^3}{3}+2x-\dfrac{13}{3},\) para todo \(x \in \left(-\infty,+\infty\right).\)</p></div>
 </div>
 </div>
 </div>
@@ -81,18 +82,18 @@
 <div id="ta38_124_2" class="block iDevice_content">
 <div class="exe-text"><p>Com base na definição formal de uma equação diferencial ordinária (EDO), podemos dizer que um <strong>problema de valor inicial (PVI)</strong> combina duas partes principais:</p>
 <ul>
-<li>Uma equação diferencial ordinária (EDO), que é da forma:<br />    \[F\left(x, y, y', y'', \dots, y^{(n)}\right) = 0,\]<br />    onde \(y^{(k)}\) representa a \(k\)-ésima derivada de \(y\) em relação a \(x\).</li>
-<li>Um conjunto de condições iniciais, que especificam valores para a função \(y\) e algumas de suas derivadas em um ponto \(x_0\) do intervalo \(I\). Essas condições têm a forma:<br />    \[y(x_0) = y_0, \quad y'(x_0) = y_1, \quad y''(x_0) = y_2, \dots, \quad y^{(n-1)}(x_0) = y_{n-1}. \]</li>
+<li>Uma equação diferencial ordinária (EDO), que é da forma:<br />    \[F\left(x, y, y', y'', \dots, y^{(n)}\right) = 0,\]<br />onde \(y^{(k)}\) representa a \(k\)-ésima derivada de \(y\) em relação a \(x.\)</li>
+<li>Um conjunto de condições iniciais, que especificam valores para a função \(y\) e algumas de suas derivadas em um ponto \(x_0\) do intervalo \(I.\) Essas condições têm a forma:<br />    \[y(x_0) = y_0, \quad y'(x_0) = y_1, \quad y''(x_0) = y_2, \dots, \quad y^{(n-1)}(x_0) = y_{n-1}. \]</li>
 </ul>
 <p>Assim, uma função \(y = \phi(x)\) é <strong>solução do PVI</strong> se:</p>
 <ul>
 <li>\(\phi(x)\) satisfaz a EDO em todo o intervalo \(I\),</li>
 <li>\(\phi(x)\) atende às condições iniciais, ou seja:<br />    \[<br />    \phi(x_0) = y_0, \quad \phi'(x_0) = y_1, \quad \dots, \quad \phi^{(n-1)}(x_0) = y_{n-1}.<br />    \]</li>
 </ul>
-<p>Um PVI resolve o problema de encontrar \textbf{uma única solução} para uma EDO, restringindo a solução com \textbf{condições iniciais específicas}. É como dizer: “Entre todas as funções que podem satisfazer essa EDO, queremos aquela que também passa por um ponto específico e segue um comportamento inicial definido.”</p>
-<p>Neste texto trabalharemos com PVI que admitem solução única. Isso não acontece sempre. O aluno curioso pode procurar por Teorema de Existência e Unicidade das EDOs em <a title="Sugestão" class="exe-dialog-link" rel="lightbox" href="#tad5667ad-faef-83e6-68a2-4fe4dfb30b34" id="linkad5667ad-faef-83e6-68a2-4fe4dfb30b34">textos didaticos</a>.</p>
-<p>Ao logo do texto aprenderemos como resolver vários tipos de PVI, passo a passo, não se preocupe. Para já somente pediremos que você saiba dizer se uma função dada é solução ou não de um PVI dado.</p>
-<p><span style="color: #fb5150;">Exemplo</span> Verifique que \(y(x)=8e^{4x}\) é solução do PVI  \(\begin{cases}y'=4y \\ y(0)=8\end{cases}\) no intervalo \(\left(-\infty,+\infty\right)\).</p>
+<p>Um PVI resolve o problema de encontrar <strong>uma única solução</strong> para uma EDO, restringindo a solução com <strong>condições iniciais específicas</strong>. É como dizer: “Entre todas as funções que podem satisfazer essa EDO, queremos aquela que também passa por um ponto específico e segue um comportamento inicial definido.”</p>
+<p>Neste ebook trabalharemos com PVI que admitem solução única. Isso não acontece sempre. O aluno curioso pode procurar por Teorema de Existência e Unicidade das EDOs em <a title="Sugestão" class="exe-dialog-link" rel="lightbox" href="#tad5667ad-faef-83e6-68a2-4fe4dfb30b34" id="linkad5667ad-faef-83e6-68a2-4fe4dfb30b34">textos didaticos</a>.</p>
+<p>Ao longo deste ebook aprenderemos como resolver vários tipos de PVI, passo a passo, não se preocupe. Para já somente pediremos que você saiba dizer se uma função dada é solução ou não de um PVI dado.</p>
+<p><span style="color: #fb5150;">Exemplo</span> Verifique que \(y(x)=8e^{4x}\) é solução do PVI  \(\begin{cases}y'=4y \\ y(0)=8\end{cases}\) no intervalo \(\left(-\infty,+\infty\right).\)</p>
 <div id="tad5667ad-faef-83e6-68a2-4fe4dfb30b34" class="exe-dialog-text js-hidden">
 <p>Uma referência recomendada seria o livro: Dennis G Zill. Equações diferenciais com aplicações em modelagem. Ceneage Learning, 2016. 10a edição</p>
 </div></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Solução" /></div><div class="feedback js-feedback js-hidden"><p>Derivando a função \(y(x)=8e^{4x}\) obtemos que \[y'(x)=8\cdot 4 e^{4x}=4 \cdot 8e^{4x} = 4y\] Portanto \(y(x)=8e^{4x}\) é solução da EDO \(y'=4y\) no intervalo \(\left(-\infty,+\infty\right)\).</p>
@@ -115,8 +116,8 @@
 <form name="true-false-form-0b40" action="#" class="activity-form">
 <h1 class="js-sr-av">Pergunta 1</h1>
 <div id="taquestion0b40" class="block iDevice_content">
-<p><span style="color: #0000ff;"> </span><img src="icon_um.1.PNG" width="59" height="59" style="margin: 0px 10px 0px 10px;" /><span style="color: #0000ff;">A função \(y=3e^{x}+e^{−2x}\) é solução do seguinte PVI</span></p>
-<p><span style="color: #0000ff;"> \(\begin{cases}y'+2y=9e^{x} \\ y(0)=4\end{cases}\) no intervalo \(\left(-\infty, + \infty\right).\)</span></p>
+<p><span style="color: #0000ff;"> </span><img src="icon_um.1.PNG" width="59" height="59" style="margin: 0px 10px 0px 10px;" /><span style="color: #000080;">A função \(y=3e^{x}+e^{−2x}\) é solução do seguinte PVI</span></p>
+<p><span style="color: #000080;"> \(\begin{cases}y'+2y=9e^{x} \\ y(0)=4\end{cases}\) no intervalo \(\left(-\infty, + \infty\right).\)</span></p>
 </div>
 <section class="iDevice_hint">
 <h1 class="iDevice_hint_title">Pista</h1>
@@ -149,8 +150,8 @@
 <form name="true-false-form-1b40" action="#" class="activity-form">
 <h1 class="js-sr-av">Pergunta 2</h1>
 <div id="taquestion1b40" class="block iDevice_content">
-<p><span style="color: #0000ff;"><img src="icon_dois.1.PNG" width="59" height="59" style="margin: 0px 10px 0px 10px;" />A função \(y=2e^{x}+3e^{2x}\) é solução do seguinte PVI</span></p>
-<p><span style="color: #0000ff;"> \(\begin{cases}y''-3y'+2y=0 \\ y(0)=5, y'(0)=8\end{cases}\) no intervalo \(\left(-\infty, + \infty\right).\)</span></p>
+<p><span style="color: #0000ff;"><img src="icon_dois.1.PNG" width="59" height="59" style="margin: 0px 10px 0px 10px;" /><span style="color: #000080;">A função \(y=2e^{x}+3e^{2x}\) é solução do seguinte PVI</span></span></p>
+<p><span style="color: #000080;"> \(\begin{cases}y''-3y'+2y=0 \\ y(0)=5, y'(0)=8\end{cases}\) no intervalo \(\left(-\infty, + \infty\right).\)</span></p>
 </div>
 <section class="iDevice_hint">
 <h1 class="iDevice_hint_title">Pista</h1>
@@ -189,8 +190,8 @@
 <form name="true-false-form-2b40" action="#" class="activity-form">
 <h1 class="js-sr-av">Pergunta 3</h1>
 <div id="taquestion2b40" class="block iDevice_content">
-<p><span style="color: #0000ff;"><img src="icon_tres.PNG" width="59" height="59" style="margin: 0px 10px 0px 10px;" />A função \(y=-2e^{\frac{x^2}{2}}​\) é solução do seguinte PVI</span></p>
-<p><span style="color: #0000ff;"> \(\begin{cases}y'=xy \\ y(0)=4\end{cases}\) no intervalo \(\left(-\infty, + \infty\right).\)</span></p>
+<p><span style="color: #0000ff;"><img src="icon_tres.PNG" width="59" height="59" style="margin: 0px 10px 0px 10px;" /><span style="color: #000080;">A função \(y=-2e^{\frac{x^2}{2}}​\) é solução do seguinte PVI</span></span></p>
+<p><span style="color: #000080;"> \(\begin{cases}y'=xy \\ y(0)=4\end{cases}\) no intervalo \(\left(-\infty, + \infty\right).\)</span></p>
 </div>
 <section class="iDevice_hint">
 <h1 class="iDevice_hint_title">Pista</h1>

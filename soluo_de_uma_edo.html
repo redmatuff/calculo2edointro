@@ -76,11 +76,11 @@
 <div class="iDevice_content_wrapper">
 <div id="ta21_124_2" class="block iDevice_content">
 <div class="exe-text"><p>E se eu te disser que \(y(x) = x^2 + 3\) também é uma solução da EDO? E também \(y(x) = x^2 - 5\)? Isso mostra que existem várias funções que podem resolver a mesma EDO, mas diferem por uma constante. A solução geral de uma EDO inclui todas essas possibilidades. No nosso exemplo, a solução geral é geralmente escrita como \(y(x) = x^2 + C\), onde \(C\) é uma constante arbitrária.</p>
-<p>Quando você tem informações adicionais, como o valor de \(y\) em um ponto específico (condição inicial), você pode determinar um valor específico para \(C\), resultando em uma solução particular válida em um determinado intervalo. No nosso exemplo, a solução da EDO que passa pelo ponto \(\left(0,\pi \right)\) seria a solução \(y(x) = x^2 + C\) tal que \(y(0) = \pi\). Isto é, \(y(x) = x^2 + \pi\).</p>
-<p>Portanto, para a EDO \(\dfrac{dy}{dx}=2x\),</p>
+<p>Quando você tem informações adicionais, como o valor de \(y\) em um ponto específico (condição inicial), você pode determinar um valor específico para \(C\), resultando em uma solução particular válida em um determinado intervalo. No nosso exemplo, a solução da EDO que passa pelo ponto \(\left(0,\pi \right)\) seria a solução \(y(x) = x^2 + C\) tal que \(y(0) = \pi\). Isto é, \(y(x) = x^2 + \pi.\)</p>
+<p>Portanto, para a EDO \(\dfrac{dy}{dx}=2x,\)</p>
 <p>\(y(x) = x^2 + C\) é a solução geral</p>
 <p>\(y(x) = x^2 + \pi\) é uma solução particular</p>
-<p>Esse é o gráfico das curvas integrais da EDO. Observe como variam as curvas segundo os valores da constante \(C\).</p>
+<p>Esse é o gráfico das curvas integrais da EDO. Observe como variam as curvas segundo os valores da constante \(C.\)</p>
 <p><img src="curvasint2x.png" alt="curvas integrais edo y'=2x" title="Curvas integrais" width="427" height="295" style="vertical-align: middle; margin: 10px;" /></p>
 <p> <span style="color: #fb5150;">Exemplo:</span> Qual seria a solução geral da EDO \(\dfrac{dy}{dx}=\sqrt{x}\)? E a solução particular que satisfaz \(y(1)=0\)?</p>
 <p class="js-required"><input type="button" value="Solução" onclick="$('#solgeral').toggle()" /></p>
@@ -89,8 +89,8 @@
 <p>Lembrando que aqui a incógnita é a função \(y(x)\) cuja derivada é \(\sqrt{x}\). É familiar? Siiim, o que vamos procurar é uma primitiva!</p>
 <p>Assim, \[y(x)= \int \sqrt{x} \, dx = \int x^{1/2} \, dx = \dfrac{2}{3}x^{3/2} + C,\]</p>
 <p>onde \(C\) é a constante de integração.</p>
-<p>A solução geral da EDO \(y'=\sqrt{x}\) é \(y(x)=\dfrac{2}{3}x^{3/2} + C\).</p>
-<p>Vamos encontrar agora a solução particular tal que \(y(1)=0\). Substituindo na solução geral, \(0=\dfrac{2}{3}+C\), donde \(C=-\dfrac{2}{3}\).</p>
+<p>A solução geral da EDO \(y'=\sqrt{x}\) é \(y(x)=\dfrac{2}{3}x^{3/2} + C.\)</p>
+<p>Vamos encontrar agora a solução particular tal que \(y(1)=0\). Substituindo na solução geral, \(0=\dfrac{2}{3}+C\), donde \(C=-\dfrac{2}{3}.\)</p>
 <p>A solução particular que passa pelo ponto \(\left(1,0 \right)\) é \(y(x)=\dfrac{2}{3}x^{3/2} -\dfrac{2}{3}=\dfrac{2}{3}(\sqrt{x^3}-1)\)</p>
 <p>Veja como é o gráfico das curvas integrais para esta EDO. <a title="Curiosidade!" class="exe-dialog-link" rel="lightbox" href="#t2c57677e-822d-56b5-aa2c-865394f64515" id="link2c57677e-822d-56b5-aa2c-865394f64515">Onde estaria a curva integral de nossa solução particular?</a></p>
 <p><img src="curvasintraizx.png" alt="curvas integrais edo y'=raiz(x)" title="Curvas integrais" width="406" height="302" style="vertical-align: middle; margin: 10px;" /></p>
@@ -128,15 +128,15 @@
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <div id="ta31_120_2" class="block iDevice_content">
-<div class="exe-text"><p>O intervalo de definição é um único intervalo aberto. Não pode ser união de intervalos. Por exemplo, a solução geral da EDO \(y'+2xy^2=0\) é \(y=\dfrac{1}{x^2-C}\). E a solução particular que passa pelo ponto \(\left(0,-1\right)\) é \(y=\dfrac{1}{x^2-1}\).</p>
+<div class="exe-text"><p>O intervalo de definição é um único intervalo aberto. Não pode ser união de intervalos. Por exemplo, a solução geral da EDO \(y'+2xy^2=0\) é \(y=\dfrac{1}{x^2-C}.\) E a solução particular que passa pelo ponto \(\left(0,-1\right)\) é \(y=\dfrac{1}{x^2-1}.\)</p>
 <p>Observemos o seguinte:</p>
 <ul>
 <li>O domínio da função \(f(x)=\dfrac{1}{x^2-1}\) é \(D=\left(-\infty,-1\right)\cup \left(-1,1\right)\cup \left(1,+\infty\right)\)</li>
 <li>A solução da EDO de primeira ordem deve estar definida em um intervalo \(I\) onde ela é, no mínimo, uma vez derivável.</li>
 </ul>
-<p>Um erro comum seria dizer que o intervalo de definição da solução da EDO seria o mesmo que da função, isto é, \(\left(-\infty,-1\right)\cup \left(-1,1\right)\cup \left(1,+\infty\right)\). Mas... lembramos que as EDO descrevem fenômenos reais. Imagine que a EDO descreve a temperatura de um bolo depois de ser retirado do forno... O que aconteceria com o bolo uma hora depois de ser tirado do forno? Isto é, no instante \(x=1\). Explode? Melhor ter controle da temperatura a todo momento, né?</p>
+<p>Um erro comum seria dizer que o intervalo de definição da solução da EDO seria o mesmo que da função, isto é, \(\left(-\infty,-1\right)\cup \left(-1,1\right)\cup \left(1,+\infty\right).\) Mas... lembramos que as EDO descrevem fenômenos reais. Imagine que a EDO descreve a temperatura de um bolo depois de ser retirado do forno... O que aconteceria com o bolo uma hora depois de ser tirado do forno? Isto é, no instante \(x=1.\) Explode? Melhor ter controle da temperatura a todo momento, né?</p>
 <p>Então combinamos que melhor ter definida a solução em um único intervalo. Qual dos ramos escolho? Isso vai depender da condição inicial, isto é, do ponto por onde passa a curva integral. </p>
-<p>No nosso caso, observe que a solução particular deve verificar que \(y(0)=-1\). Portanto \(0\) deve pertencer ao intervalo \(I\), e escolheremos o ramo \(\left(-1,1\right)\) já que \(0\in \left(-1,1\right)\). Isto é, o ponto \(0\in \left(0,1\right)\) deve estar curva integral de nossa solução. Os outros ramos da função correspondem a outras soluções particulares. Veja a figura abaixo, a nossa curva integral é só a laranja:</p>
+<p>No nosso caso, observe que a solução particular deve verificar que \(y(0)=-1\). Portanto \(0\) deve pertencer ao intervalo \(I\), e escolheremos o ramo \(\left(-1,1\right)\) já que \(0\in \left(-1,1\right)\). Isto é, o ponto \(\left(0,1\right)\) deve estar na curva integral de nossa solução. Os outros ramos da função correspondem a outras soluções particulares. Veja a figura abaixo, a nossa curva integral é só a laranja:</p>
 <figure class="exe-figure exe-image" style="width: 522px;"><img src="curvaintegral.png" alt="curvas integrais de soluçoes particulares" width="436" height="326" style="vertical-align: middle; margin: 10px;" vspace="10" hspace="10" />
 <figcaption class="figcaption"><span class="title"><em></em></span></figcaption>
 </figure>
